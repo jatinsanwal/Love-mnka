@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For My Sweet Mnka ❤️</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:linear-gradient(
+135deg,
+#ff9ecf,
+#ffc7e3,
+#ffd9ef,
+#e8c7ff
+);
+min-height:100vh;
+overflow-x:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.hearts{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+overflow:hidden;
+z-index:0;
+}
+
+.heart{
+position:absolute;
+font-size:20px;
+animation:floatHeart linear infinite;
+opacity:.7;
+}
+
+@keyframes floatHeart{
+0%{
+transform:translateY(100vh) scale(.5);
+opacity:0;
+}
+20%{
+opacity:1;
+}
+100%{
+transform:translateY(-120vh) scale(1.5);
+opacity:0;
+}
+}
+
+.container{
+position:relative;
+z-index:2;
+width:100%;
+max-width:850px;
+}
+
+.page{
+display:none;
+background:rgba(255,255,255,.25);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.4);
+padding:35px;
+border-radius:35px;
+box-shadow:
+0 10px 40px rgba(255,105,180,.25);
+animation:fadeIn .7s ease;
+}
+
+.page.active{
+display:block;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+h1{
+text-align:center;
+color:#ff2f7b;
+margin-bottom:25px;
+font-size:2rem;
+}
+
+.content{
+font-size:1.1rem;
+line-height:1.9;
+color:#4d295d;
+white-space:pre-line;
+}
+
+.nav{
+margin-top:30px;
+display:flex;
+justify-content:space-between;
+}
+
+.btn{
+border:none;
+cursor:pointer;
+padding:14px 25px;
+font-size:1rem;
+border-radius:999px;
+background:linear-gradient(
+45deg,
+#ff5ea8,
+#ff8cc6
+);
+color:white;
+font-weight:bold;
+box-shadow:
+0 6px 18px rgba(255,105,180,.4);
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.next::after{
+content:" ❤️";
+}
+
+.prev::before{
+content:"❤️ ";
+}
+
+.final-love{
+text-align:center;
+font-size:2rem;
+margin-top:25px;
+color:#ff2f7b;
+animation:pulse 1.5s infinite;
+}
+
+@keyframes pulse{
+0%{
+transform:scale(1);
+}
+50%{
+transform:scale(1.08);
+}
+100%{
+transform:scale(1);
+}
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:white;
+overflow:hidden;
+border-radius:15px;
+}
+
+th,td{
+padding:14px;
+border:1px solid #ffd1e8;
+text-align:center;
+}
+
+th{
+background:#ff93c4;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hearts" id="hearts"></div>
+
+<div class="container">
+
+<!-- <div class="page active" id="page1">
+
+<h1>🌷 Special For You 🌷</h1>
+
+<div class="content">
+
+My Sweet Mnka ❤️,
+
+Ye link maine specially sirf aapke liye banayi hai.
+
+Aaj mujhe bahut bura lag raha hai.
+Mujhe pata hai ki aapki tabiyat pehle se hi kharab hai aur uske bawajood maine aapse aisi baatein keh di jo mujhe nahi kehni chahiye thi.
+
+Mujhe aapse us tarah baat nahi karni chahiye thi.
+
+Is baat ka mujhe sach me bahut afsos hai.
+
+Main bas itna chahta hoon ki aap jaldi se theek ho jao, khush raho aur smile karo. ❤️
+
+Isliye aaj main aapke paas ek chhoti si Sorry Link lekar aaya hoon...
+
+Jisme sirf meri feelings hain,
+meri care hai
+aur meri taraf se ek bada sa...
+
+💗 I AM REALLY REALLY SORRY 💗
+
+Aap mere liye bahut special ho,
+bahut precious ho
+aur main kabhi bhi jaanbujhkar aapko hurt nahi karna chahta.
+
+Please is link ko end tak padhna. 🥺❤️
+
+</div>
+
+<div class="nav">
+<div></div>
+<button class="btn next" onclick="nextPage()">
+Open Next Page
+</button>
+</div>
+
+</div>
+
+
+
+<div class="page" id="page2">
+
+<h1>💖 Meri Galti Aur Meri Care 💖</h1>
+
+<div class="content">
+
+Mnka ❤️,
+
+Sach bataun to main apni tension aur overthinking me uljha hua tha.
+
+Mujhe lag raha tha ki shayad aap mujhse pehle jaisa pyaar nahi karte ya shayad main hi zyada soch raha tha.
+
+Aur isi wajah se maine aapse aisi baatein keh di jo galat thi.
+
+Lekin ye meri galti thi.
+
+Aapki tabiyat kharab hai aur mujhe us waqt aapko support karna chahiye tha,
+na ki aapko aur pareshan karna chahiye tha.
+
+I am so sorry. ❤️
+
+Main door hoon isliye aapke paas physically nahi aa sakta,
+lekin main aapki care karna chahta hoon.
+
+Main aapko yaad dilata rahunga:
+
+🤍 Dawa lena
+
+🤍 Bhap lena
+
+🤍 Garare karna
+
+🤍 Paani peena
+
+🤍 Time se khana khana
+
+Aur jab bhi aapko bura lage,
+udaas lage
+ya support chahiye ho,
+
+Main yahin hoon. ❤️
+
+Main aapka hausla badhaunga,
+aapki baat sununga
+aur aapka saath dunga.
+
+Because you matter to me. ❤️
+
+</div>
+
+<div class="nav">
+<button class="btn prev" onclick="prevPage()">
+Previous
+</button>
+
+<button class="btn next" onclick="nextPage()">
+Next Page
+</button>
+</div>
+
+</div>
+
+<div class="page" id="page3">
+
+<h1>🌸 Mnka Recovery Mission 🌸</h1>
+
+<div class="content">
+
+Meri pyaari Mnka ❤️,
+
+Mujhe aapko bahut jaldi theek dekhna hai.
+
+Aap jaldi theek ho jaoge to hum phir se maze karenge,
+games khelenge,
+hasi-mazaak karenge
+aur sab kuch normal ho jayega. 🥰
+
+Isliye maine aapke liye ek chhota sa Recovery Routine banaya hai:
+
+</div>
+
+<table>
+
+<tr>
+<th>Time</th>
+<th>Kya Karna Hai</th>
+</tr>
+
+<tr>
+<td>🌅 Morning</td>
+<td>Bhap lena + Garara karna</td>
+</tr>
+
+<tr>
+<td>☀️ Afternoon</td>
+<td>Ek baar Garara karna</td>
+</tr>
+
+<tr>
+<td>🌇 Evening</td>
+<td>Bhap lena</td>
+</tr>
+
+<tr>
+<td>🌙 Night</td>
+<td>Garara karke sona</td>
+</tr>
+
+</table>
+
+<div class="content">
+
+💊 Important Reminders
+
+✅ Dawa time se khani hai.
+
+✅ Ho sake to doctor se consult karna hai aur proper medicine leni hai.
+
+✅ Breakfast, Lunch aur Dinner skip nahi karna.
+
+✅ Bhook lage to extra kuch healthy bhi kha lena.
+
+✅ Paani achhi quantity me peena hai.
+
+✅ Hydrated rehna hai.
+
+✅ Jyada thakan ho to rest karna hai.
+
+Aur haan...
+
+Aapko jaldi theek hona hi hoga kyunki mujhe meri smiley Mnka wapas chahiye. 🥺❤️
+
+Promise karo ki apna dhyan rakhoge. 🌷
+
+</div>
+
+<div class="nav">
+
+<button class="btn prev" onclick="prevPage()">
+Previous
+</button>
+
+<button class="btn next" onclick="nextPage()">
+Final Page
+</button>
+
+</div>
+
+</div>
+
+<div class="page" id="page4">
+
+<h1>💞 A Final Sorry & A Lot Of Love 💞</h1>
+
+<div class="content">
+
+My Sweet Wife ❤️,
+
+Main ek baar phir dil se kehna chahta hoon...
+
+I am truly, genuinely sorry.
+
+Mujhe bahut bura lag raha hai ki maine aaj aapko hurt kiya,
+especially jab aapki tabiyat bhi kharab hai.
+
+Please mujhe maaf kar dena. 🥺
+
+Main aapse promise karta hoon ki main aapki care karunga,
+aapki respect karunga
+aur aapse pyaar karunga.
+
+Aaj hi nahi...
+
+Kal bhi...
+
+Aur hamesha. ❤️
+
+As your husband,
+
+Meri itni pyaari,
+itni sweet
+aur itni lovely wife ki care karna meri responsibility bhi hai
+aur meri khushi bhi. 💕
+
+Aap jab theek ho jaoge na...
+
+🎮 Hum games khelenge.
+
+😊 Main aapse pyaar se baat karunga.
+
+🤗 Main aapko judge nahi karunga.
+
+❤️ Main aapko aur zyada pyaar karunga.
+
+I love you so much, Mnka.
+
+I care for you.
+
+I value you.
+
+I respect you.
+
+You are my wife.
+
+My sweet wife.
+
+My lovely wife.
+
+Forever and always. ❤️🌹✨
+
+</div>
+
+<div class="final-love">
+❤️ I LOVE YOU MNKA ❤️
+</div>
+
+<div class="nav">
+
+<button class="btn prev" onclick="prevPage()">
+Previous
+</button>
+
+<button class="btn next"
+onclick="alert('❤️ Thank You For Reading My Sorry Link ❤️')">
+Love You ❤️
+</button>
+
+</div>
+
+</div> 
+
+</div>
+
+<script>
+
+let currentPage=1;
+
+function showPage(page){
+
+document
+.querySelectorAll('.page')
+.forEach(p=>p.classList.remove('active'));
+
+document
+.getElementById('page'+page)
+.classList.add('active');
+
+currentPage=page;
+}
+
+function nextPage(){
+if(currentPage<4){
+showPage(currentPage+1);
+}
+}
+
+function prevPage(){
+if(currentPage>1){
+showPage(currentPage-1);
+}
+}
+
+const hearts=document.getElementById("hearts");
+
+setInterval(()=>{
+
+const heart=document.createElement("div");
+
+heart.classList.add("heart");
+
+heart.innerHTML=
+["❤️","💖","💕","💗","💞","💓"]
+[Math.floor(Math.random()*6)];
+
+heart.style.left=
+Math.random()*100+"%";
+
+heart.style.animationDuration=
+(6+Math.random()*5)+"s";
+
+heart.style.fontSize=
+(15+Math.random()*20)+"px";
+
+hearts.appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},12000);
+
+},400);
+
+</script>
+</body>
+</html>
